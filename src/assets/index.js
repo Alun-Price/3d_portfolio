@@ -1,8 +1,10 @@
 import alunlogo from "./alunlogo.png";
+import billy from "./billy.png";
 import carrent from "./carrent.png";
 import close from "./close.svg";
 import codeins from "./code-ins.png";
 import css from "./tech/css.png";
+import dave from "./dave.png";
 import deloitte from "./deloitte.png";
 import docker from "./tech/docker.png";
 import eco from "./eco.png";
@@ -13,6 +15,7 @@ import github from "./github.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import jobit from "./jobit.png";
+import laravel from "./laravel.png";
 import logo from "./logo.svg";
 import menu from "./menu.svg";
 import mongodb from "./tech/mongodb.png";
@@ -29,10 +32,12 @@ import vue from "./vue.png";
 
 export {
   alunlogo,
+  billy,
   carrent,
   close,
   codeins,
   css,
+  dave,
   deloitte,
   docker,
   eco,
@@ -43,6 +48,7 @@ export {
   html,
   javascript,
   jobit,
+  laravel,
   logo,
   menu,
   mongodb,

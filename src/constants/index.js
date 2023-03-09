@@ -1,7 +1,9 @@
 import {
+  billy,
   carrent,
   codeins,
   css,
+  dave,
   deloitte,
   docker,
   eco,
@@ -11,6 +13,7 @@ import {
   html,
   javascript,
   jobit,
+  laravel,
   mongodb,
   nodejs,
   php,
@@ -72,16 +75,16 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Vue JS",
+    icon: vue,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Python",
+    icon: python,
   },
   {
     name: "Tailwind CSS",
@@ -92,12 +95,12 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "PHP",
+    icon: php,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "laravel",
+    icon: laravel,
   },
   {
     name: "git",
@@ -108,8 +111,8 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Three JS",
+    icon: threejs,
   },
 ];
 
@@ -180,19 +183,19 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Making Alun permanent was one of the easiest decisions we ever made …",
+    name: "Billy O'Brien",
+    designation: "Founder of Engage-EHS",
+    company: "Engage-EHS",
+    image: billy,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Alun always went above and beyond to help us with the marketing website design, performance and SEO … A pleasure to work with!",
+    name: "David Rowland",
+    designation: "Head of Marketing",
+    company: "Protex AI",
+    image: dave,
   },
   {
     testimonial:
