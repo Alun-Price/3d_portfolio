@@ -16,6 +16,7 @@ import {
   laravel,
   mongodb,
   nodejs,
+  nils,
   php,
   python,
   reactjs,
@@ -52,12 +53,28 @@ const services = [
     icon: vue,
   },
   {
+    title: "React.js",
+    icon: reactjs,
+  },
+  {
     title: "PHP[Laravel]",
     icon: php,
   },
   {
     title: "Python [Flask/Django]",
     icon: python,
+  },
+  {
+    title: "Tailwind",
+    icon: tailwind,
+  },
+  {
+    title: "Node.js",
+    icon: nodejs,
+  },
+  {
+    title: "Git",
+    icon: git,
   },
 ];
 
@@ -199,11 +216,11 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Alun is a skilled developer with much enthusiasm and good interpersonal skills. In my time working with him, he went out of his way to solve challenging problems and he is adept at acquiring the necessary know-how and information needed. I wouldn't hesitate to recommend Alun.",
+    name: "Nils-Øyvind Lien",
+    designation: "Line Manager & Senior Frontend Developer",
+    company: "EcoOnline",
+    image: nils,
   },
 ];
 

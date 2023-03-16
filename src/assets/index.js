@@ -19,6 +19,7 @@ import laravel from "./laravel.png";
 import logo from "./logo.svg";
 import menu from "./menu.svg";
 import mongodb from "./tech/mongodb.png";
+import nils from "./nils.png";
 import nodejs from "./tech/nodejs.png";
 import php from "./php.svg";
 import python from "./python.png";
@@ -52,6 +53,7 @@ export {
   logo,
   menu,
   mongodb,
+  nils,
   nodejs,
   php,
   python,
