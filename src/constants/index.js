@@ -216,7 +216,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Alun is a skilled developer with much enthusiasm and good interpersonal skills. In my time working with him, he went out of his way to solve challenging problems and he is adept at acquiring the necessary know-how and information needed. I wouldn't hesitate to recommend Alun.",
+      "Alun is a skilled developer with much enthusiasm and good interpersonal skills. In my time working with him, he went out of his way to solve challenging problems and he is adept at acquiring the necessary know-how and information needed. I wouldn't hesitate to recommend him.",
     name: "Nils-Øyvind Lien",
     designation: "Line Manager & Senior Frontend Developer",
     company: "EcoOnline",
