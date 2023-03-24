@@ -1,20 +1,22 @@
 import {
   billy,
-  carrent,
   codeins,
   css,
   dave,
   deloitte,
   docker,
+  dojoblog,
   eco,
   engage,
   figma,
+  forkify,
   git,
   html,
   javascript,
-  jobit,
   laravel,
   mongodb,
+  natours,
+  nexter,
   nodejs,
   nils,
   php,
@@ -22,8 +24,8 @@ import {
   reactjs,
   redux,
   tailwind,
+  temple,
   threejs,
-  tripguide,
   typescript,
   vue,
 } from "../assets";
@@ -226,67 +228,108 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "React Micro-Blog",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "I built a micro-blog from the ground up, in order to learn the fundamentals of React. We used the json-server package to provide a quick pseudo backend.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "react router",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "json-server",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: dojoblog,
+    source_code_link: "https://github.com/Alun-Price/dojo-blog",
   },
   {
-    name: "Job IT",
+    name: "Nexter",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Nexter is a fictional company that sells luxury homes. The goal here was to produce a responsive, single-page website that demonstrates the usage of CSS Grid.",
     tags: [
       {
-        name: "react",
+        name: "CSS Grid",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "responsive",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "sass",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: nexter,
+    source_code_link: "https://github.com/Alun-Price/nexter",
   },
   {
-    name: "Trip Guide",
+    name: "Natours",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Natours is a Nature Tours website highlighting the use of SASS (7-1 architecture), advanced CSS, responsive design and CSS animations.",
     tags: [
       {
-        name: "nextjs",
+        name: "CSS Animations",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "responsive",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "sass",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: natours,
+    source_code_link: "https://github.com/Alun-Price/natours",
+  },
+  {
+    name: "Forkify",
+    description:
+      "Forkify uses the Forkify API to fetch and display recipe data. It allows users to search for recipes, bookmark them, adjust serving sizes, and view detailed directions.",
+    tags: [
+      {
+        name: "Javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "rest API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "sass",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: forkify,
+    source_code_link: "https://github.com/Alun-Price/forkify-alun",
+  },
+  {
+    name: "Temple Explosion",
+    description:
+      "Not all projects go according to plan!  This minecraft-style temple built in Blender was supposed to crumble stylishly but exploded instead - twice!! 😄",
+    tags: [
+      {
+        name: "blender",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "inadvertent-explosions",
+        color: "green-text-gradient",
+      },
+      {
+        name: "hazard",
+        color: "pink-text-gradient",
+      },
+    ],
+    video: temple,
   },
 ];
 
