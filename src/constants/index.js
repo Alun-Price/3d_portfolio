@@ -7,6 +7,7 @@ import {
   docker,
   dojoblog,
   eco,
+  eco1,
   engage,
   figma,
   forkify,
@@ -28,22 +29,25 @@ import {
   threejs,
   typescript,
   vue,
+  ecoCover,
 } from "../assets";
 
 export const navLinks = [
   {
-    id: "about",
-    title: "About",
-  },
-  {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
     title: "Contact",
   },
 ];
+
+export const ecoNavLinks = [];
 
 const services = [
   {
@@ -228,9 +232,30 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Chemical Approval",
+    description:
+      "My pod built this external module for enterprise clients. It helps organisations manage decisions over which chemical to use and ensures regulatory compliance.",
+    tags: [
+      {
+        name: "EcoOnline",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "laravel",
+        color: "green-text-gradient",
+      },
+      {
+        name: "vue2.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ecoCover,
+    source_code_link: "/eco",
+  },
+  {
     name: "React Micro-Blog",
     description:
-      "I built a micro-blog from the ground up, in order to learn the fundamentals of React. We used the json-server package to provide a quick pseudo backend.",
+      "I built a micro-blog from the ground up, in order to learn the fundamentals of React. I used the json-server package to provide a quick pseudo backend.",
     tags: [
       {
         name: "react",

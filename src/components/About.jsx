@@ -47,12 +47,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm an experienced software developer who has used languages such as
-        PHP, Python and JavaScript, with frameworks and libraries like Laravel,
-        Django, Node.js, Vue.js and React.js. I learn quickly and work well with
-        others to create efficient, scalable, and user-friendly solutions. I
-        love to use cutting-edge technologies to solve real-world problems.
-        Let's work together to bring your ideas to life!
+        I'm an experienced software developer, with a strong scientific
+        background, who has used languages such as PHP, Python and JavaScript,
+        with frameworks and libraries like Laravel, Django, Node.js, Vue.js and
+        React.js. I learn quickly and work well with others to create efficient,
+        scalable, and user-friendly solutions. I love to use cutting-edge
+        technologies to solve real-world problems. Let's work together to bring
+        your ideas to life!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

@@ -1,7 +1,8 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {
   About,
   Contact,
+  EcoNavbar,
   Experience,
   Feedbacks,
   Hero,
@@ -9,11 +10,23 @@ import {
   Tech,
   Works,
   StarsCanvas,
+  Eco,
 } from "./components";
 
 const App = () => {
   return (
     <BrowserRouter>
+      <Routes>
+        <Route path="/eco" element={<Ecoproj />} />
+        <Route exact path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
+  );
+};
+
+function Home() {
+  return (
+    <>
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
@@ -29,8 +42,21 @@ const App = () => {
           <StarsCanvas />
         </div>
       </div>
-    </BrowserRouter>
+    </>
   );
-};
+}
+
+function Ecoproj() {
+  return (
+    <>
+      <div className="relative z-0 bg-primary">
+        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+          <EcoNavbar />
+          <Eco />
+        </div>
+      </div>
+    </>
+  );
+}
 
 export default App;

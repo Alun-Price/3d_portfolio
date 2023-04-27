@@ -8,6 +8,11 @@ import deloitte from "./deloitte.png";
 import docker from "./tech/docker.png";
 import dojoblog from "./dojo-blog.png";
 import eco from "./eco.png";
+import ecoCover from "./EcoCover.png";
+import eco1 from "./eco1.png";
+import eco2 from "./eco2.png";
+import eco3 from "./eco3.png";
+import eco4 from "./eco4.png";
 import engage from "./engage.png";
 import figma from "./tech/figma.png";
 import forkify from "./forkify.png";
@@ -44,6 +49,11 @@ export {
   docker,
   dojoblog,
   eco,
+  ecoCover,
+  eco1,
+  eco2,
+  eco3,
+  eco4,
   engage,
   figma,
   forkify,
