@@ -20,6 +20,7 @@ import {
   nexter,
   nodejs,
   nils,
+  obs1,
   php,
   python,
   reactjs,
@@ -179,9 +180,9 @@ const experiences = [
     date: "Jul 2015 - Jan 2016",
     points: [
       "Stream 0 [8 week pre-course requirement]: HTML5, CSS3, Python and Javascript on Codecademy",
-      "Stream 1 [Front End]:  Sublime Text, Responsive web design, FlexBox, Wireframing, UX, Bootstrap, JQuery, Forms, D3.js, Angular, Github",
-      "Stream 2 [Back End]:  PyCharm IDE, Python, Unit-testing, MySQL, Python Twitter API, Webscraping, Matplotlib, MongoDB, Flask, Dashboard Visualization, DC.js, Crossfilter",
-      "Stream 3 [Full Stack Framework Development]:  VirtualBox, Linux, Django, Flatpages, User & Email Authentication, Stripe/Paypal Payment/Subscription systems, Blog app, Test framework, Django deployment",
+      "Stream 1 [Front End]: Sublime Text, Responsive web design, FlexBox, Wireframing, UX, Bootstrap, JQuery, D3.js, Angular, Github",
+      "Stream 2 [Back End]: PyCharm IDE, Python, Unit-testing, MySQL, Python Twitter API, Webscraping, Matplotlib, MongoDB, DC.js, Crossfilter",
+      "Stream 3 [Full Stack Framework Development]: VirtualBox, Linux, Django, Flatpages, User & Email Authentication, Stripe/Paypal Payment/Subscription systems, Blog app, Test framework, Django deployment",
     ],
   },
   {
@@ -234,7 +235,7 @@ const projects = [
   {
     name: "Chemical Approval",
     description:
-      "My pod built this external module for enterprise clients. It helps organisations manage decisions over which chemical to use and ensures regulatory compliance.",
+      "Built for enterprise clients, this external module helps organisations manage decisions over which chemical to use and helps to ensure regulatory compliance.",
     tags: [
       {
         name: "EcoOnline",
@@ -251,6 +252,48 @@ const projects = [
     ],
     image: ecoCover,
     source_code_link: "/eco",
+  },
+  {
+    name: "The Observations Module",
+    description:
+      "I built this brand new module for the Engage-EHS platform.  It allows employees to report observations and potential hazards so that actions may be raised to resolve them.",
+    tags: [
+      {
+        name: "Engage-EHS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "php",
+        color: "green-text-gradient",
+      },
+      {
+        name: "go",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: obs1,
+    source_code_link: "/obs",
+  },
+  {
+    name: "Rebrands & SSO",
+    description:
+      "Want Engage-EHS to look more like your software? Let's change the login background, logos and colours to suit your branding. Single sign on - I got that covered too!!",
+    tags: [
+      {
+        name: "Engage-EHS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "php",
+        color: "green-text-gradient",
+      },
+      {
+        name: "sass",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: obs1,
+    source_code_link: "/obs",
   },
   {
     name: "React Micro-Blog",

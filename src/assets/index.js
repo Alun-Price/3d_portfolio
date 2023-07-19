@@ -28,6 +28,7 @@ import natours from "./natours.png";
 import nexter from "./nexter.png";
 import nils from "./nils.png";
 import nodejs from "./tech/nodejs.png";
+import obs1 from "./obs1.png";
 import php from "./php.svg";
 import python from "./python.png";
 import reactjs from "./tech/reactjs.png";
@@ -69,6 +70,7 @@ export {
   nexter,
   nils,
   nodejs,
+  obs1,
   php,
   python,
   reactjs,
