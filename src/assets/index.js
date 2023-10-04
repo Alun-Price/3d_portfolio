@@ -29,7 +29,13 @@ import natours from "./natours.png";
 import nexter from "./nexter.png";
 import nils from "./nils.png";
 import nodejs from "./tech/nodejs.png";
+import obsMain from "./obsMain.png";
 import obs1 from "./obs1.png";
+import obs3 from "./Obs3.png";
+import obs4 from "./Obs4ReportForm.png";
+import obs5 from "./Obs5Actions.png";
+import obs6 from "./Obs6ClassificationOptions.png";
+import obs7 from "./Obs7AddAction.png";
 import php from "./php.svg";
 import python from "./python.png";
 import reactjs from "./tech/reactjs.png";
@@ -72,7 +78,13 @@ export {
   nexter,
   nils,
   nodejs,
+  obsMain,
   obs1,
+  obs3,
+  obs4,
+  obs5,
+  obs6,
+  obs7,
   php,
   python,
   reactjs,

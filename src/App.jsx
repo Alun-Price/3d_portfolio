@@ -7,6 +7,7 @@ import {
   Feedbacks,
   Hero,
   Navbar,
+  Observation,
   Tech,
   Works,
   StarsCanvas,
@@ -17,6 +18,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/obs" element={<Obs />} />
         <Route path="/eco" element={<Ecoproj />} />
         <Route exact path="/" element={<Home />} />
       </Routes>
@@ -53,6 +55,19 @@ function Ecoproj() {
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <EcoNavbar />
           <Eco />
+        </div>
+      </div>
+    </>
+  );
+}
+
+function Obs() {
+  return (
+    <>
+      <div className="relative z-0 bg-primary">
+        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+          <EcoNavbar />
+          <Observation />
         </div>
       </div>
     </>

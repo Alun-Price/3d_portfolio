@@ -20,6 +20,7 @@ import {
   nexter,
   nodejs,
   nils,
+  obsMain,
   obs1,
   php,
   python,
@@ -275,7 +276,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: obs1,
+    image: obsMain,
     source_code_link: "/obs",
   },
   {

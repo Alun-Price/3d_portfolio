@@ -14,6 +14,7 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import Eco from "./Eco";
+import Observation from "./Observation";
 
 export {
   Hero,
@@ -30,4 +31,5 @@ export {
   BallCanvas,
   ComputersCanvas,
   StarsCanvas,
+  Observation,
 };
