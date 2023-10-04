@@ -51,7 +51,7 @@ const About = () => {
         background, who has used languages such as PHP, Python and JavaScript,
         with frameworks and libraries like Laravel, Django, Node.js, Vue.js and
         React.js. I learn quickly and work well with others to create efficient,
-        scalable, and user-friendly solutions. I love to use cutting-edge
+        scalable and user-friendly solutions. I love to use cutting-edge
         technologies to solve real-world problems. Let's work together to bring
         your ideas to life!
       </motion.p>

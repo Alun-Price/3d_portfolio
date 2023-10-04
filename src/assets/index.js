@@ -9,6 +9,7 @@ import docker from "./tech/docker.png";
 import dojoblog from "./dojo-blog.png";
 import eco from "./eco.png";
 import ecoCover from "./EcoCover.png";
+import ecoMain from "./eco_main.webp";
 import eco1 from "./eco1.png";
 import eco2 from "./eco2.png";
 import eco3 from "./eco3.png";
@@ -51,6 +52,7 @@ export {
   dojoblog,
   eco,
   ecoCover,
+  ecoMain,
   eco1,
   eco2,
   eco3,

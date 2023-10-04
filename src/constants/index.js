@@ -206,24 +206,28 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial:
-      "Making Alun permanent was one of the easiest decisions we ever made …",
+    testimonial1:
+      "Making Alun permanent was one of the easiest decisions we've ever made …",
     name: "Billy O'Brien",
     designation: "Founder of Engage-EHS",
     company: "Engage-EHS",
     image: billy,
   },
   {
-    testimonial:
-      "Alun always went above and beyond to help us with the marketing website design, performance and SEO … A pleasure to work with!",
+    testimonial1:
+      "Alun always went above and beyond to help us with the marketing website design, performance and SEO … ",
+    testimonial2: "A pleasure to work with!",
     name: "David Rowland",
     designation: "Head of Marketing",
     company: "Protex AI",
     image: dave,
   },
   {
-    testimonial:
-      "Alun is a skilled developer with much enthusiasm and good interpersonal skills. In my time working with him, he went out of his way to solve challenging problems and is adept at acquiring the necessary know-how and information. I wouldn't hesitate to recommend him.",
+    testimonial1:
+      "Alun is a skilled developer with much enthusiasm and good interpersonal skills.",
+    testimonial2:
+      "In my time working with him, he went out of his way to solve challenging problems and is adept at acquiring the necessary know-how and information.",
+    testimonial3: "I wouldn't hesitate to recommend him.",
     name: "Nils-Øyvind Lien",
     designation: "Line Manager & Senior Frontend Developer",
     company: "EcoOnline",

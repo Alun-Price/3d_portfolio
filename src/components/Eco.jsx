@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
-import { eco, eco1, eco2, eco3, eco4 } from "../assets";
+import { eco, ecoMain, eco1, eco2, eco3, eco4 } from "../assets";
 
 const Eco = () => {
   return (
@@ -14,40 +14,37 @@ const Eco = () => {
       </h2>
       <div className="flex flex-wrap justify-center max-w-3xl ">
         <img
-          src="https://www.ecoonline.com/hs-fs/hubfs/Chem_approval%20(1).png?width=3600&amp;name=Chem_approval%20(1).png 3600w"
+          src={ecoMain}
           className="w-1000 rounded mt-4 mb-8"
-          alt="..."
+          alt="chemical approval main image"
         />
       </div>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubTextWhite}>Introduction</p>
-      </motion.div>
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className="mt-2 mb-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
-      >
+
+      <p className={styles.sectionSubTextWhite}>Introduction</p>
+
+      <p className="mt-2 mb-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
         Chemical Approval was designed to streamline and automate the process of
         approving chemicals. The solution allows users to create chemical
         inventories, assess risks associated with chemicals, and generate safety
         data sheets (SDS) and labels. It also facilitates communication between
         employees and management and provides an audit trail for all
         chemical-related activities.
-      </motion.p>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubTextWhite}>Tech Stack</p>
-      </motion.div>
-      <motion.ul
+      </p>
+
+      <p className={styles.sectionSubTextWhite}>Tech Stack</p>
+
+      <ul
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-2 mb-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         <li>PHP(Laravel) Backend</li>
         <li>Vue2.js Frontend</li>
         <li>Vuetify UI Framework</li>
-      </motion.ul>
-      <motion.div variants={textVariant()}>
+      </ul>
+      <div>
         <p className={styles.sectionSubTextWhite}>My Role </p>
-      </motion.div>
-      <motion.ul
+      </div>
+      <ul
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-2 mb-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
@@ -55,10 +52,10 @@ const Eco = () => {
         <li>produced various backend endpoints (Laravel)</li>
         <li>implemented internationalisation (Vue2)</li>
         <li>snag list and bug fixing</li>
-      </motion.ul>
-      <motion.div variants={textVariant()}>
+      </ul>
+      <div>
         <p className={styles.sectionSubTextWhite}>Screenshots</p>
-      </motion.div>
+      </div>
       <div className="flex flex-wrap justify-left max-w-2xl ">
         <img
           src={eco2}
