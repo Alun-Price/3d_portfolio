@@ -12,8 +12,14 @@ const styles = {
     "text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
   sectionSubText:
     "sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider",
+  sectionSubTextLower: "sm:text-[16px] text-[14px] text-secondary",
   sectionSubTextWhite:
     "text-white font-black sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider",
+  sectionSubTextWhiteLower:
+    "text-white font-black sm:text-[18px] text-[14px] text-secondary",
+
+  buttonHead1:
+    "bg-tertiary py-1 pl-2 pr-3 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary",
 };
 
 export { styles };
