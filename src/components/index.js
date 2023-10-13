@@ -15,6 +15,7 @@ import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import Eco from "./Eco";
 import Observation from "./Observation";
+import Rebrands from "./Rebrands";
 
 export {
   Hero,
@@ -32,4 +33,5 @@ export {
   ComputersCanvas,
   StarsCanvas,
   Observation,
+  Rebrands,
 };

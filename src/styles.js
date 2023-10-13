@@ -20,6 +20,8 @@ const styles = {
 
   buttonHead1:
     "bg-tertiary py-1 pl-2 pr-3 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary",
+  buttonHead1mt:
+    "bg-tertiary py-1 pl-2 pr-3 mt-6 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary",
 };
 
 export { styles };

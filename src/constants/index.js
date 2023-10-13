@@ -1,4 +1,5 @@
 import {
+  affinity1,
   billy,
   codeins,
   css,
@@ -297,8 +298,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: obs1,
-    source_code_link: "/obs",
+    image: affinity1,
+    source_code_link: "/rebrands",
   },
   {
     name: "React Micro-Blog",
@@ -406,4 +407,34 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const rebrandSlider1 = {
+  0: "Login Page (Base Engage-EHS Branding)",
+  1: "Virtual Summit Login Page",
+  2: "Login Page - Affinity Waters",
+  3: "Login Page - Boohoo",
+  4: "Login Page - Boston Scientific",
+  5: "Login Page - Coillte",
+  6: "Login Page - ",
+  7: "Login Page - ",
+};
+
+const rebrandSlider2 = {
+  0: "System Module Page (Base Engage-EHS Branding)",
+  1: "Christmas Login Page",
+  2: "System Module Page - Affinity Waters",
+  3: "System Module Page - Boohoo",
+  4: "System Module Page - Boston Scientific",
+  5: "System Module Page - Coillte",
+  6: "System Module Page",
+  7: "System Module Page",
+};
+
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  rebrandSlider1,
+  rebrandSlider2,
+};
