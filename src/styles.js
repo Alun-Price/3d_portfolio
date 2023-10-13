@@ -12,7 +12,7 @@ const styles = {
     "text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
   sectionSubText:
     "sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider",
-  sectionSubTextLower: "sm:text-[16px] text-[14px] text-secondary",
+  sectionSubTextLower: "sm:text-[9px] text-[14px] text-secondary",
   sectionSubTextWhite:
     "text-white font-black sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider",
   sectionSubTextWhiteLower:

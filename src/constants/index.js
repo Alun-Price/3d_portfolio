@@ -419,14 +419,14 @@ const rebrandSlider1 = {
 };
 
 const rebrandSlider2 = {
-  0: "System Module Page (Base Engage-EHS Branding)",
+  0: "Module Page (Base Engage-EHS Branding)",
   1: "Christmas Login Page",
-  2: "System Module Page - Affinity Waters",
-  3: "System Module Page - Boohoo",
-  4: "System Module Page - Boston Scientific",
-  5: "System Module Page - Coillte",
-  6: "System Module Page",
-  7: "System Module Page",
+  2: "Module Page - Affinity Waters",
+  3: "Module Page - Boohoo",
+  4: "Module Page - Boston Scientific",
+  5: "Module Page - Coillte",
+  6: "Module Page",
+  7: "Module Page",
 };
 
 export {
