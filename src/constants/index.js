@@ -2,6 +2,7 @@ import {
   affinity1,
   billy,
   codeins,
+  craftcms,
   css,
   dave,
   deloitte,
@@ -66,11 +67,11 @@ const services = [
     icon: reactjs,
   },
   {
-    title: "PHP[Laravel]",
+    title: "PHP",
     icon: php,
   },
   {
-    title: "Python [Flask/Django]",
+    title: "Python",
     icon: python,
   },
   {
@@ -384,6 +385,27 @@ const projects = [
     ],
     image: forkify,
     source_code_link: "https://github.com/Alun-Price/forkify-alun",
+  },
+  {
+    name: "CraftCMS",
+    description:
+      "I followed the Craft CMS document tutorial to build this blog. It uses DDEV, which is a docker-based PHP development environment, with Twig templating.",
+    tags: [
+      {
+        name: "CraftCMS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "php(Yii 2)",
+        color: "green-text-gradient",
+      },
+      {
+        name: "docker/ddev",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: craftcms,
+    source_code_link: "https://github.com/Alun-Price/crafttut",
   },
   {
     name: "Temple Explosion",

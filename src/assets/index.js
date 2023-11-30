@@ -9,6 +9,7 @@ import bsc2 from "./bsc2.png";
 import christmasmp4 from "./christmas.mp4";
 import close from "./close.svg";
 import codeins from "./code-ins.png";
+import craftcms from "./craftcms.png";
 import coillte1 from "./coillte1.png";
 import coillte2 from "./coillte2.png";
 import css from "./tech/css.png";
@@ -72,6 +73,7 @@ export {
   codeins,
   coillte1,
   coillte2,
+  craftcms,
   css,
   dave,
   deloitte,
