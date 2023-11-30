@@ -148,7 +148,7 @@ const experiences = [
     company_name: "EcoOnline",
     icon: eco,
     iconBg: "#E6DEDD",
-    date: "Aug 2021 - Aug 2022",
+    date: "Aug 2021 - Present",
     points: [
       "Maintained EcoOnline’s flagship product - Chemical Manager - using Laravel and Vue.js",
       "Added language internationalisation and developed backend API’s for Chemical Approval - an external module for enterprise clients",
