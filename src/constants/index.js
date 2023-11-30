@@ -27,9 +27,6 @@ import {
   php,
   python,
   reactjs,
-  redux,
-  rfu1,
-  rfu2,
   tailwind,
   temple,
   threejs,
@@ -389,7 +386,7 @@ const projects = [
     source_code_link: "https://github.com/Alun-Price/forkify-alun",
   },
   {
-    name: "CraftCMS",
+    name: "Craft CMS Blog",
     description:
       "I followed the Craft CMS document tutorial to build this blog. It uses DDEV, which is a docker-based PHP development environment, with Twig templating.",
     tags: [
