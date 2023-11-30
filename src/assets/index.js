@@ -13,7 +13,9 @@ import craftcms from "./craftcms.png";
 import coillte1 from "./coillte1.png";
 import coillte2 from "./coillte2.png";
 import css from "./tech/css.png";
-import dave from "./dave.png";
+import dave from "./darwin1.png";
+import darwin1 from "./darwin1.png";
+import darwin2 from "./darwin2.png";
 import deloitte from "./deloitte.png";
 import docker from "./tech/docker.png";
 import dojoblog from "./dojo-blog.png";
@@ -27,6 +29,8 @@ import eco4 from "./eco4.png";
 import engage from "./engage.png";
 import engage_base1 from "./engage_base1.png";
 import engage_base2 from "./engage_base2.png";
+import epa1 from "./EPA1.png";
+import epa2 from "./EPA2.png";
 import figma from "./tech/figma.png";
 import forkify from "./forkify.png";
 import git from "./tech/git.png";
@@ -48,14 +52,22 @@ import obs4 from "./Obs4ReportForm.png";
 import obs5 from "./Obs5Actions.png";
 import obs6 from "./Obs6ClassificationOptions.png";
 import obs7 from "./Obs7AddAction.png";
+import pepsico1 from "./Pepsico1.png";
+import pepsico2 from "./Pepsico2.png";
 import php from "./php.svg";
 import python from "./python.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
+import rfu1 from "./rfu1.png";
+import rfu2 from "./rfu2.png";
+import sfpa1 from "./sfpa1.png";
+import sfpa2 from "./sfpa2.png";
 import tailwind from "./tech/tailwind.png";
 import temple from "./temple.mp4";
 import threejs from "./tech/threejs.svg";
 import typescript from "./tech/typescript.png";
+import virgin1 from "./virginmedia1.png";
+import virgin2 from "./virginmedia2.png";
 import vsummit1 from "./virtual_summit1.png";
 import vue from "./vue.png";
 
@@ -76,6 +88,8 @@ export {
   craftcms,
   css,
   dave,
+  darwin1,
+  darwin2,
   deloitte,
   docker,
   dojoblog,
@@ -89,6 +103,8 @@ export {
   engage,
   engage_base1,
   engage_base2,
+  epa1,
+  epa2,
   figma,
   forkify,
   git,
@@ -110,14 +126,22 @@ export {
   obs5,
   obs6,
   obs7,
+  pepsico1,
+  pepsico2,
   php,
   python,
   reactjs,
   redux,
+  rfu1,
+  rfu2,
+  sfpa1,
+  sfpa2,
   tailwind,
   temple,
   threejs,
   typescript,
+  virgin1,
+  virgin2,
   vsummit1,
   vue,
 };

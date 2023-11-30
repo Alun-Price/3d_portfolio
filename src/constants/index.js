@@ -28,6 +28,8 @@ import {
   python,
   reactjs,
   redux,
+  rfu1,
+  rfu2,
   tailwind,
   temple,
   threejs,
@@ -436,8 +438,12 @@ const rebrandSlider1 = {
   3: "Login Page - Boohoo",
   4: "Login Page - Boston Scientific",
   5: "Login Page - Coillte",
-  6: "Login Page - ",
-  7: "Login Page - ",
+  6: "Login Page - Darwin Escapes",
+  7: "Login Page - England Rugby",
+  8: "Login Page - Environmental Protection Agency",
+  9: "Login Page - Pepsico",
+  10: "Login Page - Sea Fisheries Protection Authority",
+  11: "Login Page - Virgin Media",
 };
 
 const rebrandSlider2 = {
@@ -447,8 +453,12 @@ const rebrandSlider2 = {
   3: "Module Page - Boohoo",
   4: "Module Page - Boston Scientific",
   5: "Module Page - Coillte",
-  6: "Module Page",
-  7: "Module Page",
+  6: "Module Page - Darwin Escapes",
+  7: "Module Page - England Rugby",
+  8: "Module Page - Environmental Protection Agency",
+  9: "Module Page - Pepsico",
+  10: "Module Page - Sea Fisheries Protection Authority",
+  11: "Module Page - Virgin Media",
 };
 
 export {

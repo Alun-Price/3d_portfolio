@@ -17,8 +17,20 @@ import {
   christmasmp4,
   coillte1,
   coillte2,
+  darwin1,
+  darwin2,
   engage_base1,
   engage_base2,
+  epa1,
+  epa2,
+  pepsico1,
+  pepsico2,
+  rfu1,
+  rfu2,
+  sfpa1,
+  sfpa2,
+  virgin1,
+  virgin2,
   vsummit1,
 } from "../assets";
 
@@ -30,6 +42,12 @@ const Rebrands = () => {
     boohoo1,
     bsc1,
     coillte1,
+    darwin1,
+    rfu1,
+    epa1,
+    pepsico1,
+    sfpa1,
+    virgin1,
   ];
   const carousel2Images = [
     engage_base2,
@@ -38,6 +56,12 @@ const Rebrands = () => {
     boohoo2,
     bsc2,
     coillte2,
+    darwin2,
+    rfu2,
+    epa2,
+    pepsico2,
+    sfpa2,
+    virgin2,
   ];
   const [current, setCurrent] = useState(0);
   const [isFocus, setIsFocus] = useState(false);
