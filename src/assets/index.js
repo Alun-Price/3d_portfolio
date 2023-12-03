@@ -13,7 +13,7 @@ import craftcms from "./craftcms.png";
 import coillte1 from "./coillte1.png";
 import coillte2 from "./coillte2.png";
 import css from "./tech/css.png";
-import dave from "./darwin1.png";
+import dave from "./dave.png";
 import darwin1 from "./darwin1.png";
 import darwin2 from "./darwin2.png";
 import deloitte from "./deloitte.png";
