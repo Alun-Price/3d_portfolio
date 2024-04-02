@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import {
+import
+{
   About,
   Contact,
   EcoNavbar,
@@ -15,20 +16,22 @@ import {
 } from "./components";
 import Rebrands from "./components/Rebrands";
 
-const App = () => {
+const App = () =>
+{
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/eco" element={<Ecoproj />} />
-        <Route path="/obs" element={<Obs />} />
-        <Route path="/rebrands" element={<RebSSO />} />
-        <Route exact path="/" element={<Home />} />
+        <Route path="/eco" element={ <Ecoproj /> } />
+        <Route path="/obs" element={ <Obs /> } />
+        <Route path="/rebrands" element={ <RebSSO /> } />
+        <Route exact path="/" element={ <Home /> } />
       </Routes>
     </BrowserRouter>
   );
 };
 
-function Home() {
+function Home()
+{
   return (
     <>
       <div className="relative z-0 bg-primary">
@@ -50,7 +53,8 @@ function Home() {
   );
 }
 
-function Ecoproj() {
+function Ecoproj()
+{
   return (
     <>
       <div className="relative z-0 bg-primary">
@@ -63,7 +67,8 @@ function Ecoproj() {
   );
 }
 
-function Obs() {
+function Obs()
+{
   return (
     <>
       <div className="relative z-0 bg-primary">
@@ -76,7 +81,8 @@ function Obs() {
   );
 }
 
-function RebSSO() {
+function RebSSO()
+{
   return (
     <>
       <div className="relative z-0 bg-primary">

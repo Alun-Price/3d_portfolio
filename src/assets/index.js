@@ -9,7 +9,6 @@ import bsc2 from './bsc2.png';
 import christmasmp4 from './christmas.mp4';
 import close from './close.svg';
 import codeins from './code-ins.png';
-import craftcms from './craftcms.png';
 import coillte1 from './coillte1.png';
 import coillte2 from './coillte2.png';
 import css from './tech/css.png';
@@ -17,6 +16,7 @@ import dave from './dave.png';
 import darwin1 from './darwin1.png';
 import darwin2 from './darwin2.png';
 import deloitte from './deloitte.png';
+import depot from './depot.png';
 import docker from './tech/docker.png';
 import dojoblog from './dojo-blog.png';
 import eco from './eco.png';
@@ -85,12 +85,12 @@ export {
   codeins,
   coillte1,
   coillte2,
-  craftcms,
   css,
   dave,
   darwin1,
   darwin2,
   deloitte,
+  depot,
   docker,
   dojoblog,
   eco,

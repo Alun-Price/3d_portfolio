@@ -2,10 +2,10 @@ import {
   affinity1,
   billy,
   codeins,
-  craftcms,
   css,
   dave,
   deloitte,
+  depot,
   docker,
   dojoblog,
   eco,
@@ -363,25 +363,25 @@ const projects = [
     source_code_link: 'https://github.com/Alun-Price/forkify-alun',
   },
   {
-    name: 'Craft CMS Blog',
+    name: 'Rails7 Depot App',
     description:
-      'I followed the Craft CMS document tutorial to build this blog. It uses DDEV, which is a docker-based PHP development environment, with Twig templating.',
+      'The Depot application in "Agile Development with Rails7" is a comprehensive web-based shopping cart application that illustrates many of the features of Rails development.',
     tags: [
       {
-        name: 'CraftCMS',
+        name: 'Ruby',
         color: 'blue-text-gradient',
       },
       {
-        name: 'php(Yii 2)',
+        name: 'Rails',
         color: 'green-text-gradient',
       },
       {
-        name: 'docker/ddev',
+        name: 'TailwindCSS',
         color: 'pink-text-gradient',
       },
     ],
-    image: craftcms,
-    source_code_link: 'https://github.com/Alun-Price/crafttut',
+    image: depot,
+    source_code_link: 'https://github.com/Alun-Price/rails-depot',
   },
   {
     name: 'Temple Explosion',
